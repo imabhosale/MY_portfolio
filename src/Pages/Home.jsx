@@ -80,7 +80,7 @@ const Home = () => {
                             <Heading fontSize="3.3em" className='text' data-text=" Abhishek"><span className='themeText'>Abhishek </span></Heading>
                         </Box>
                         <Text>Am a software Developer passionate and experienced in building Web applications.</Text>
-                        <HStack className='hireMe' onClick={() => { window.open("https://drive.google.com/file/d/15i4WEQpjkmn4atNpp5YLufjamGK18cBj/view?usp=sharing", '_blank') }}>
+                        <HStack className='hireMe' onClick={() => { window.open("https://drive.google.com/file/d/140HDVgEQjdgF2Atvc_tmJ40V1DE_5xzT/view?usp=sharing", '_blank') }}>
                             <a href={Resume} download="Abhishek-Bhosale-Resume">
                                 <Button>Resume <GoCloudDownload /></Button>
                             </a>
