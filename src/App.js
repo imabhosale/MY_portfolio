@@ -2,6 +2,7 @@ import './App.css';
 import Home from './Pages/Home';
 import Navbar from './Components/Navbar';
 import { Box } from '@chakra-ui/react';
+import Certificates from './Components/Certificates';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Box display={{ md: "block", base: "none" }} className='cursor'></Box>
       <Navbar />
       <Home />
+      {/* <Certificates/> */}
     </div>
   );
 }

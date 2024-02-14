@@ -21,6 +21,7 @@ import Svg2 from '../Components/Svg2';
 import Svg3 from '../Components/Svg3';
 import Slider from 'react-slick';
 import Resume from '../Resume/Abhishek_Bhosale_CV.pdf'
+import Certificates from '../Components/Certificates';
 
 const Home = () => {
 
@@ -77,7 +78,7 @@ const Home = () => {
                     <Box data-aos="fade-down">
                         <Heading>Hey! <span className='themeText'>I'm</span></Heading>
                         <Box className='content'>
-                            <Heading fontSize="3.3em" className='text' data-text=" Abhishek"><span className='themeText'>Abhishek </span></Heading>
+                            <Heading fontSize="3.3em" className='text' ><span >Abhishek </span></Heading>
                         </Box>
                         <Text>Am a software Developer passionate and experienced in building Web applications.</Text>
                         <HStack className='hireMe' onClick={() => { window.open("https://drive.google.com/file/d/1VtOH1UozsmdebOGpHsLM99mhlSNBQXiv/view?usp=sharing", '_blank') }}>
@@ -186,9 +187,10 @@ const Home = () => {
           </Box>
         ))}
       </Slider>
+     
+    <Certificates/>
+
     </Box>
-
-
             {/* Github Statistics */}
             <Box id="githubStats">
                 <Heading textAlign="center">Github <span className='themeText'>stats</span></Heading>

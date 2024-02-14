@@ -17,7 +17,7 @@ const Navbar = () => {
                     <Image src={logo} />
                 </Box>
                 <Box className='name'>
-                    <Heading> Abhishek</Heading>
+                    
                     <Heading> Abhishek </Heading>
                 </Box>
             </Box>
