@@ -81,7 +81,7 @@ const Home = () => {
                             <Heading fontSize="3.3em" className='text' ><span >Abhishek </span></Heading>
                         </Box>
                         <Text>Am a software Developer passionate and experienced in building Web applications.</Text>
-                        <HStack className='hireMe' onClick={() => { window.open("https://drive.google.com/file/d/1VtOH1UozsmdebOGpHsLM99mhlSNBQXiv/view?usp=sharing", '_blank') }}>
+                        <HStack className='hireMe' onClick={() => { window.open("https://drive.google.com/file/d/1DbAMGHEnlB4jQTa-FUPWn_1U7h-Hl9i0/view?usp=sharing", '_blank') }}>
                             <a href={Resume} download="Abhishek-Bhosale-Resume">
                                 <Button>Resume <GoCloudDownload /></Button>
                             </a>
