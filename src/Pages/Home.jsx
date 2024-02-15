@@ -82,7 +82,7 @@ const Home = () => {
                         </Box>
                         <Text>Am a software Developer passionate and experienced in building Web applications.</Text>
                         <HStack className='hireMe' onClick={() => { window.open("https://drive.google.com/file/d/1DbAMGHEnlB4jQTa-FUPWn_1U7h-Hl9i0/view?usp=sharing", '_blank') }}>
-                            <a href={Resume} download="Abhishek-Bhosale-Resume">
+                            <a href={Resume} download="Abhishek_Bhosale_CV">
                                 <Button>Resume <GoCloudDownload /></Button>
                             </a>
                         </HStack>
@@ -195,14 +195,10 @@ const Home = () => {
             <Box id="githubStats">
                 <Heading textAlign="center">Github <span className='themeText'>stats</span></Heading>
                 <Center className='github-stats'>
-                    {/* <Image src="https://github-readme-stats.vercel.app/api/top-langs/?username=Atanu8250&layout=compact&hide_border=true&theme=radical" alt="Most used languages" />
-                    <Image src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=atanu8250&theme=radical" alt="Github Stats" /> */}
-                </Center>
+                    </Center>
 
                 <Center className='github-stats'>
-                    {/* <Image src="https://github-readme-stats.vercel.app/api?username=Atanu8250&show_icons=true&locale=en&layout=compact&hide_border=true&theme=radical" alt="Github stats" />
-                    <Image src="https://github-readme-streak-stats.herokuapp.com/?user=Atanu8250&layout=compact&hide_border=true&theme=radical" alt="Current Streaks" /> */}
-                </Center>
+                    </Center>
 
                 <Center>
                     <GitHubCalendar username="imabhosale" color="#4a8af4" children={<ReactTooltip html />} />
