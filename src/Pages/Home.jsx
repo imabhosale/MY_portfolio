@@ -44,8 +44,8 @@ const Home = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
-        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_SERVICE_TEMPLATE, form.current, process.env.REACT_APP_SERVICE_SECRET).then((result) => {
+//process.env.REACT_APP_SERVICE_ID.
+        emailjs.sendForm('service_9u6kn6l', 'template_8ol048a', form.current, 'OCQb2BkLDfrmvkkoS').then((result) => {
 
             toast({
                 position: 'top-right',
