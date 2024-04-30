@@ -113,7 +113,10 @@ const Home = () => {
                         </Flex>
 
                         <Box>
-                            <Text>An ambitious and self-motivated webdeveloper with a considerable technical skill who possesses self-discipline and ability to work with minimum of super vision.Able to play a key role in website development to ensure maximum accessibility,user experience and usability.A  quick-learner who can absorb new ideas clearly and effectively.</Text>
+                            <Text>Dedicated to continuous learning and collaborative teamwork to achieve organizational goals, I am passionate about staying
+updated with emerging technologies. With a focus on driving impactful contributions in a dynamic environment, I bring a commitment
+to innovation and a thirst for knowledge to every project.
+</Text>
                         </Box>
                     </Flex>
                 </Flex>
